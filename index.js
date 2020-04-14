@@ -1,11 +1,13 @@
-var inquirer = require("inquirer");
+const inquirer = require("inquirer");
+const fs = require("fs");
+const api = require("./api");
+// const generateMarkdown = require("./utils/generateMarkdown");
 const axios = require("axios");
-var fs = require('fs');
-
-
 // let questions =
-inquirer.prompt(
-[
+
+
+function questions(){
+ return inquirer.prompt([
     {
         message: "Enter your GitHub username:",
         name: "username"
@@ -34,34 +36,25 @@ inquirer.prompt(
         messages: "list all the contributors for the project",
         name: "Contributors"
     }
-])
-
-
-// function init(){
-// inquirer.prompt(questions)
-.then(answers => {
-    console.info('Answers:', answers);
-    fs.writeFile('readme.txt', JSON.stringify(answers, null, '\t'), function(err) {
-
-        if (err) {
-          return console.log(err);
-        }
-    
-    })
-    (function ({username}){
-    const queryUrl = `https://api.github.com/users/${username}`
-    
-    axios
-    .get(queryUrl)
-    .then((res)=>{
-        // console.log(res.data)
-  console.log(res.data.avatar_url)
-  console.log(res.data.email)
-        // portPic = res.data.avatar_url;
-    })
-})
-  });
-
+])}
  
 
-// init()
+async function init() {
+    console.log("hi")
+    try {
+        const answers = await questions();
+
+        const README = await api(answers.github);
+
+        await generate(answers, README);
+
+        console.log("Successfully generated README.md");
+    } catch (err) {
+        console.log(err);
+    }
+
+}
+
+init();
+
+
