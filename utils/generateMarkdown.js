@@ -29,7 +29,7 @@ function generateMarkdown(data, response) {
   ## Badge(s)
   ![Badge](${data.badge})
   ## Questions
-  ![image](${response.data.avatar_url})
+  ![image](${response.data.avatar_url}=75x75)
   ${response.data.email}
   `;
   }

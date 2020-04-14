@@ -1,5 +1,5 @@
 
-  # sdkj
+  # GOOD README GENERATOR
   # Table of Contents:
   1. [Description](#description)
   2. [Contents](#contents)
@@ -10,24 +10,24 @@
   7. [Test](#test)
   8. [Questions](#questions)
   ## Description
-  kjsdkj
+  skdjfd sdksdj sdkjsd
   ## Contents
-  ksdjs
+  
   ## Installation
   undefined
   ## Usage
-  kjsd
+  axios, inquirer and fs 
   ## License
-  dskjsd
+  MIT
   ## Contributions
   undefined
   ## Test
-  ksdjsjks
+  run it on the console 
   ## Questions
   undefined
   ## Badge(s)
-  ![Badge](https://img.shields.io/npm/v/axios?style=plastic)
+  ![Badge](gti commit -m ' add a a link to to open the image on the markdown file )
   ## Questions
-  ![image](https://avatars0.githubusercontent.com/u/59719170?v=4)
+  ![image](https://avatars0.githubusercontent.com/u/59719170?v=4=200x200)
   null
   
