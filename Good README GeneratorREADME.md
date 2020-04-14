@@ -1,6 +1,5 @@
-function generateMarkdown(data, git) {
-    return `
-  # ${data.title}
+
+  # Good README Generator
   # Table of Contents:
   1. [Description](#description)
   2. [Contents](#contents)
@@ -11,24 +10,21 @@ function generateMarkdown(data, git) {
   7. [Test](#test)
   8. [Questions](#questions)
   ## Description
-  ${data.Description}
+  generates a good ream file 
   ## Contents
-  ${data.contents}
+  installations
   ## Installation
-  ${data.installation}
+  undefined
   ## Usage
-  ${data.usage}
+  run nmp install 
   ## License
-  ${data.license}
+  MIT
   ## Contributions
-  ${data.contributions}
+  undefined
   ## Test
-  ${data.test}
+  run node index.js in your terminal 
   ## Questions
-  ${data.questions}
+  undefined
   ## Badge(s)
-  ![Badge](${data.badge})
-  `;
-  }
+  ![Badge](https://img.shields.io/npm/v/axios?style=plastic)
   
-  module.exports = generateMarkdown;
