@@ -1,4 +1,4 @@
-function generateMarkdown(data, git) {
+function generateMarkdown(data, response) {
     return `
   # ${data.title}
   # Table of Contents:
@@ -6,7 +6,7 @@ function generateMarkdown(data, git) {
   2. [Contents](#contents)
   3. [Installation](#installation)
   4. [Usage](#usage)
-  5. [Licensing](#license)
+  5. [Licensing](#license)nod
   6. [Contributions](#contributions)
   7. [Test](#test)
   8. [Questions](#questions)
@@ -28,6 +28,9 @@ function generateMarkdown(data, git) {
   ${data.questions}
   ## Badge(s)
   ![Badge](${data.badge})
+  ## Questions
+  ![image](${response.data.avatar_url})
+  ${response.data.email}
   `;
   }
   

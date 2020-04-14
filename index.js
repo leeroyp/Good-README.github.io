@@ -54,7 +54,7 @@ function questions(){
 ])}
 
 function generate(data, git) {
-    fs.writeFile(`${data.title}README.md`, generateMarkdown(data, git), (err) => {
+    fs.writeFile('README.md', generateMarkdown(data, git), (err) => {
         if (err) {
             throw err;
         }
