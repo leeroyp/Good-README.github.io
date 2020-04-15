@@ -29,7 +29,8 @@ function generateMarkdown(data, response) {
   ## Badge(s)
   ![Badge](${data.badge})
   ## Questions
-  ![image](${response.data.avatar_url}=75x75)
+  <img src="${response.data.avatar_url}" height="100" width="75">
+  
   ${response.data.email}
   `;
   }

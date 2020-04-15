@@ -1,5 +1,5 @@
 
-  # GOOD README GENERATOR
+  # Good README Generator
   # Table of Contents:
   1. [Description](#description)
   2. [Contents](#contents)
@@ -10,24 +10,25 @@
   7. [Test](#test)
   8. [Questions](#questions)
   ## Description
-  skdjfd sdksdj sdkjsd
+  This is a node project that will ask a few questions about your project to help generate a clean readme file 
   ## Contents
   
   ## Installation
   undefined
   ## Usage
-  axios, inquirer and fs 
+  run node.js on your terminal
   ## License
   MIT
   ## Contributions
   undefined
   ## Test
-  run it on the console 
+  Ran a few consol logs to enure i recieve necessary data 
   ## Questions
   undefined
   ## Badge(s)
-  ![Badge](gti commit -m ' add a a link to to open the image on the markdown file )
+  ![Badge]()
   ## Questions
-  ![image](https://avatars0.githubusercontent.com/u/59719170?v=4=200x200)
+  <img src="https://avatars0.githubusercontent.com/u/59719170?v=4" height="100" width="75">
+  
   null
   
