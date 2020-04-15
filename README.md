@@ -1,5 +1,5 @@
 
-  # Good README Generator
+  # Good Readme generator
   # Table of Contents:
   1. [Description](#description)
   2. [Contents](#contents)
@@ -10,23 +10,23 @@
   7. [Test](#test)
   8. [Questions](#questions)
   ## Description
-  This is a node project that will ask a few questions about your project to help generate a clean readme file 
+  this project will ask a series of questions which will help generate a good readme fill for your project 
   ## Contents
   
   ## Installation
   undefined
   ## Usage
-  run node.js on your terminal
+  simple run node index.js in your terminal
   ## License
   MIT
   ## Contributions
   undefined
   ## Test
-  Ran a few consol logs to enure i recieve necessary data 
+  running a series of console logs to ensure i got the data i needed
   ## Questions
   undefined
   ## Badge(s)
-  ![Badge]()
+  ![Badge](https://img.shields.io/npm/v/axios?style=plastic)
   ## Questions
   <img src="https://avatars0.githubusercontent.com/u/59719170?v=4" height="100" width="75">
   
